@@ -1,0 +1,47 @@
+header {
+    background: darkgray;
+}
+
+h1.mb-3 {
+    padding-top: 15px;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+body {
+    font-family: 'Benne', serif;
+    background-color: #837b7b3b
+}
+
+.m-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+footer {
+    background-color: darkgrey;
+}
+
+@keyframes picture {
+    0%   {border-radius: 0%;}
+    25%  {border-radius: 100%;
+          transform: rotate(90deg);}
+    50%  {transform: rotate(180deg);
+          border-radius: 100%;}
+    100% { 
+          transform: rotate(360deg);
+          border-radius: 100%;}
+   }
+  
+  @keyframes move {
+    from {top: 0px;}
+    to {top: 200px;}
+  }
+    
+  a.navbar-brand {
+    animation-name: picture;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+     
