@@ -23,6 +23,10 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
 
+a {
+    color: black;
+    font-weight: 600;
+}
 
 @media screen and (max-width: 500px) {
     .bg-image {
