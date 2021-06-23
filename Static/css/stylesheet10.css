@@ -25,7 +25,8 @@ body {
 
 a {
     color: black;
-    font-weight: 600;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 @media screen and (max-width: 500px) {
