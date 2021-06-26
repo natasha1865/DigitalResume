@@ -10,10 +10,6 @@ h4 {
     margin-top: 10px;
 }
 
-.navbar a:hover {
-    background-color: #000;
-}
-
 body {
     font-family: 'Benne', serif;
     background-color: #837b7b3b
@@ -44,9 +40,8 @@ footer {
           transform: rotate(90deg);}
     50%  {transform: rotate(180deg);
           border-radius: 100%;}
-    100% { 
-          transform: rotate(360deg);
-          border-radius: 100%;}
+    100% {transform: rotate(360deg);
+          border-radius: 100%;)
    }
   
   @keyframes move {
@@ -59,5 +54,3 @@ footer {
     animation-duration: 10s;
     animation-iteration-count: infinite;
   }
-     
-
