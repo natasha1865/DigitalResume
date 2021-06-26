@@ -29,6 +29,10 @@ footer {
     background-color: darkgrey;
 }
 
+h4#Personal\ Statement,h4#Skills, h4 {
+    FONT-WEIGHT: 600;
+}
+
 @keyframes picture {
     0%   {border-radius: 0%;}
     25%  {border-radius: 100%;
