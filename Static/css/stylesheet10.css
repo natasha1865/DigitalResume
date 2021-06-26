@@ -25,11 +25,6 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
-@media screen and (max-width: 500px) {
-    .bg-image {
-    display: none;
-}
-
 footer {
     background-color: darkgrey;
 }
@@ -40,17 +35,23 @@ footer {
           transform: rotate(90deg);}
     50%  {transform: rotate(180deg);
           border-radius: 100%;}
-    100% {transform: rotate(360deg);
-          border-radius: 100%;)
+    100% { 
+          transform: rotate(360deg);
+          border-radius: 100%;}
    }
   
   @keyframes move {
     from {top: 0px;}
     to {top: 200px;}
-  }
+}
     
-  a.navbar-brand {
+a.navbar-brand {
     animation-name: picture;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-  }
+}
+
+  @media screen and (max-width: 500px) {
+    .bg-image {
+    display: none;
+}
