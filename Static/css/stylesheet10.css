@@ -6,28 +6,40 @@ h5 {
     margin-top: 30px;
 }
 
+.row {
+    margin-top: 20px;
+}
+
 h1.mb-3 {
-    padding-top: 15px;
+    padding-top: 0;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-weight: 500;
 }
 
 h4 {
     margin-top: 10px;
 }
 
-body {
-    font-family: 'Benne', serif;
-    background-color: #837b7b3b
+h5 {
+    font-weight: 500;
 }
 
+body {
+    font-family: 'Benne', serif;
+    background-color: #837b7b3b;
+    font-size: 1.1rem;
+}
+
+
+.jumbotron {
+    background-color: lightgray;
+}
 .m-heading {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
-
-a {
-    color: black;
-    font-weight: 500;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-}
 
 footer {
     background-color: darkgrey;
