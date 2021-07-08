@@ -25,7 +25,7 @@
 </head>
 
 <body>
-  <header>
+  <div id="header">
     <!--navigation start-->
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
@@ -40,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page-link" href="#Personal Statement">About</a>
+              <a class="nav-link active" aria-current="page-link" href="#About">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page-link" href="#Skills">Skills</a>
@@ -62,58 +62,67 @@
         </div>
       </div>
     </nav>
-  </header>
+  </div>
   <div class="jumbotron">
     <div class="bg-image" style="
           background-image: url('./static/Images/wave.png');
           height: 400px">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white text-center">
-          <h1 class="mt-3 mb-3">Natasha Tania Alexander</h1>
-          <h3 class="mb-3 text-center">Web designer</h3>
-          <a class="btn btn-outline-light btn-lg m-2" href="#Personal Statement" role="button">Portfolio</a>
-          <a class="btn btn-outline-light btn-lg m-2" href="#Skills icon" role="button">Skills</a>
-          <h2 class="animate-fading">Welcome to my World!</h2>
+    </div>
+    <div class="About">
+      <div class="container">
+        <div class="card">
+          <div class="row bg-darkgrey">
+            <div class="col-md-4">
+              <picture>
+                <source media="(min-width:650px)" srcset="./Static/Images/me.jpg">
+                <source media="(min-width:465px)" srcset="./Static/Images/image3.jpg">
+                <img src="./Static/Images/image1.jpg" width="250" height="250" class="img-fluid rounded-top mx-3 mt-3 mb-3"
+                alt="picture of Natasha">
+              </picture>
+            </div>
+            <div class="col-md-7">
+              <div class="card-body text-center">
+                <div class="text">
+                  <h3 class="mt-4 mb">Natasha Tania Alexander</h3>
+                  <h3 class="mt-4 mb-4">Web designer</h3>
+                  <a class="btn btn-outline-dark btn-lg m-2 mb-4" href="#Portfolio" role="button">Portfolio</a>
+                  <a class="btn btn-outline-dark btn-lg m-2 mb-4" href="#Skills icon" role="button">Skills</a>
+                  <h2>Welcome to my World!</h2>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="card-footer bg-light">
+          <a href="#"><img src="Static/Images/Python48px.png" class="incon mx-2"></i></a>
+          <a href="#"><img src="Static/Images/html5-48.png" class="incon mx-2"></i></a>
+          <a href="#"><img src="Static/Images/github-48.png" class="incon mx-2"></i></a>
+          <a href="#"><img src="Static/Images/css-48.png" class="incon mx-2"></i></a>
+          <a href="#"><img src="Static/Images/html5-48.png"class="incon mx-2"></i></a>
+          <a href="#"><img src="Static/Images/bootstrap-48.png"class="incon mx-2"></i></a>
+          <a href="#"><img src="Static/Images/logo-48.png"class="incon mx-2"></i></a>
         </div>
       </div>
     </div>
-  </div>
-  </header>
-
-  <!--div class="container">
-    <div class="row">
-      <div container>
-        <div class="col-md-2">
-        <!--picture>
-          <source media="(min-width:650px)" srcset="./Static/Images/me.jpg">
-          <source media="(min-width:465px)" srcset="./Static/Images/image3.jpg">
-          <img src="./Static/Images/image1.jpg" alt="Picture of Natasha">
-        </picture>
-
-        <!--img class="img-thumbnail" src="./static/Images/me.jpg" alt="Picture of Natasha"-->
-
-  <div class="col-md-9">
-    <h4 id="Personal Statement">Personal Statement</h4>
-    <p>I am a skilled professional with a diverse employment history within the Shipping, Procurement and
-      Manufacturing Industry. I would like to utilize the skills and experience gained
-      from my 27 years to undertake a new challenge as a Web Developer. I am currently within a career transition
-      and excited about the new opportunities. I am passionate about
-      technology, art, creative design and programming. I am enthusiastic to learn, grow and enhance my own personal
-      development through my continued commitment in online studies, and courses,
-      in order to advance both myself and my contribution and continued success within my career.</p>
-    <p>I have grown and developed my roles throughout my career, advancing in both my positions and
-      responsibilities, through hard work, dedication and determination. I have overcome challenges
-      and engaged in changing environments due to company retrenchments and restructuring. I have embraced those new
-      opportunities with a positive attitude and a willingness to learn. My roles
-      have grown from being an active team member to a team lead, managing and supervising a team’s success,
-      improving customer satisfaction, and driving overall operational improvements.
-      I have engaged in data extraction, analysis and reporting, project and financial administration, cost control,
-      process improvement and implementation and problem resolution.
-    </p>
-  </div>
-  </div>
-  </div>
-  </div>
+    <div class="about-text">
+        <h4>About</h4>
+        <p>I am a skilled professional with a diverse employment history within the Shipping, Procurement and
+          Manufacturing Industry. I would like to utilize the skills and experience gained
+          from my 27 years to undertake a new challenge as a Web Developer. I am currently within a career transition
+          and excited about the new opportunities. I am passionate about
+          technology, art, creative design and programming. I am enthusiastic to learn, grow and enhance my own personal
+          development through my continued commitment in online studies, and courses,
+          in order to advance both myself and my contribution and continued success within my career.</p>
+        <p>I have grown and developed my roles throughout my career, advancing in both my positions and
+          responsibilities, through hard work, dedication and determination. I have overcome challenges
+          and engaged in changing environments due to company retrenchments and restructuring. I have embraced those new
+          opportunities with a positive attitude and a willingness to learn. My roles
+          have grown from being an active team member to a team lead, managing and supervising a team’s success,
+          improving customer satisfaction, and driving overall operational improvements.
+          I have engaged in data extraction, analysis and reporting, project and financial administration, cost control,
+          process improvement and implementation and problem resolution.
+        </p>
+      </div>
+  </section>
   <div class="container" id="Education">
     <div class="row">
       <div class="col-4">
@@ -152,94 +161,79 @@
         </ul>
       </div>
     </div>
-    <!--employoment history-->
-    <div class="container">
-      <div class="row">
-        <div class="col-12 mt-4">
-          <h4 id="Careers">Career Chronology</h4>
+    <employoment history>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-4">
+            <h4 id="Careers">Career Chronology</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <ul>
+              <li>Erakis Investment Holdings – Cape Town
+                Procurement Administrator, August 2020 to Present
+              </li>
+            </ul>
+          </div>
+          <div class="col-8 mb-2">
+            Fulfilling the procurement role for both foreign and local purchases.
+            Managing orders with suppliers through to final delivery.
+            Processing of Foreign Payments.
+            Identify and improve the inbound supply chain.
+            Freight estimates and landed cost preparation.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <ul>
+              <li>Freddy Hirsch – Cape Town
+                Shipping Cost Controller, July 2015 to Jan 2019</li>
+            </ul>
+          </div>
+          <div class="col-8 mb-2">
+            Financial administration, Data extraction and reporting.
+            Managing landed production costs and preparation.
+            Drove and coordinated improved processes and operational improvements. Problem resolution and provide
+            exceptional internal customer service.
+            Identifying financial risk factors and cost saving initiatives.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <ul>
+              <li>Safmarine – Cape Town
+                Cluster Customer Service Agent - Projects, Feb 2013 to Dec 2014</li>
+            </ul>
+          </div>
+          <div class="col-8 mb-2">
+            Focused on hyper care customer projects.
+            Creating awareness, implementing process change through process evaluation, project presentation,
+            training, process improvements, and development. Drove visibility and training to the branches,
+            of new systems, to drive best business practices and service delivery.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <ul>
+              <li>Safmarine – Cape Town
+                Senior Export Customer Service Agent, Aug 2008 to Jan 2013</li>
+            </ul>
+          </div>
+          <div class="col-8 mb-2">
+            Supervised the export bookings and documentation team.
+            2IC to the Export Manager, to support and guide a successful team, to provide high end customer service
+            and
+            delivery.
+            Managed documentation requirements for key customer portfolio.
+            Developed team communication, information, and outputs.
+            Driving and coaching customers usage and navigation to our e-commerce platform.
+            Managed outstanding freight, dispute management and reconciliations.
+            Handled Ad-hoc projects, driving system changes, new processes, and new system testing.
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-4">
-          <ul>
-            <li>Erakis Investment Holdings – Cape Town
-              Procurement Administrator, August 2020 to Present
-            </li>
-          </ul>
-        </div>
-        <div class="col-8 mb-2">
-          Fulfilling the procurement role for both foreign and local purchases.
-          Managing orders with suppliers through to final delivery.
-          Processing of Foreign Payments.
-          Identify and improve the inbound supply chain.
-          Freight estimates and landed cost preparation.
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <ul>
-            <li>Freddy Hirsch – Cape Town
-              Shipping Cost Controller, July 2015 to Jan 2019</li>
-          </ul>
-        </div>
-        <div class="col-8 mb-2">
-          Financial administration, Data extraction and reporting.
-          Managing landed production costs and preparation.
-          Drove and coordinated improved processes and operational improvements. Problem resolution and provide
-          exceptional internal customer service.
-          Identifying financial risk factors and cost saving initiatives.
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <ul>
-            <li>Safmarine – Cape Town
-              Cluster Customer Service Agent - Projects, Feb 2013 to Dec 2014</li>
-          </ul>
-        </div>
-        <div class="col-8 mb-2">
-          Focused on hyper care customer projects.
-          Creating awareness, implementing process change through process evaluation, project presentation,
-          training, process improvements, and development. Drove visibility and training to the branches,
-          of new systems, to drive best business practices and service delivery.
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <ul>
-            <li>Safmarine – Cape Town
-              Senior Export Customer Service Agent, Aug 2008 to Jan 2013</li>
-          </ul>
-        </div>
-        <div class="col-8 mb-2">
-          Supervised the export bookings and documentation team.
-          2IC to the Export Manager, to support and guide a successful team, to provide high end customer service
-          and
-          delivery.
-          Managed documentation requirements for key customer portfolio.
-          Developed team communication, information, and outputs.
-          Driving and coaching customers usage and navigation to our e-commerce platform.
-          Managed outstanding freight, dispute management and reconciliations.
-          Handled Ad-hoc projects, driving system changes, new processes, and new system testing.
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <section class="auto-slider">
-        <div id="slider">
-          <figure>
-            <img src="./Static/Images/Python48px.png" alt="Image">
-            <img src="./Static/Images/html5-48.png" alt="Image">
-            <img src="./Static/Images/github-48.png" alt="Image">
-            <img src="./Static/Images/css-48.png" alt="Image">
-            <img src="./Static/Images/bootstrap-48.png" alt="Image">
-            <img src="./Static/Images/logo-48.png" alt="Image">
-          </figure>
-          <div class="indicator">
-        </div>
-      </section>
-    </divr>
-      <!-- Section: Images -->
+      
       <div class="container">
         <div class="footer" bg-darkgrey text-center text-black>
 
