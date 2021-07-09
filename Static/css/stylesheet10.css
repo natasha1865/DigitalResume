@@ -47,6 +47,11 @@ body {
     font-size: 1.1rem;
 }
 
+#footer {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
 
 @keyframes picture {
     0%   {border-radius: 0%;}
@@ -71,23 +76,6 @@ a.navbar-brand {
 }
 /*
 
-
-.auto-slider{
-    position: relative;
-    box-sizing: content-box;
-    display: block;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 4px;
-    box-shadow: 1px 1px 6px darkgray;
- 
-}
-
-
-
-footer {
-    background-color: darkgrey;
-}
 
 
 
