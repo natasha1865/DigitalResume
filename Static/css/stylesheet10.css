@@ -36,8 +36,9 @@ hr.bg-dark {
     margin-top: 06px;
 }
 
-.card-skills {
+.card-AboutMe, .card-skills, .card-education {
     background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 /*
 .row {
