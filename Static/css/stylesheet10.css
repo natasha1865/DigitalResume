@@ -19,13 +19,23 @@ nav {
 } 
 
 .card {
-    background-color: darkgray;
+    background-color: lightgray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .card {
     margin-top: -150px;
 }
+
+span.bg-dark.text-white {
+    padding: 10px 20px 10px 20px;
+}
+
+hr.bg-dark {
+    height: 2px;
+    margin-top: 06px;
+}
+
 
 /*
 .row {
