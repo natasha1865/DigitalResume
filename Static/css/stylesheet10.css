@@ -20,7 +20,7 @@ nav {
 
 .card {
     background-color: lightgray;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Benne', serif;
 }
 
 .card {
@@ -28,51 +28,25 @@ nav {
 }
 
 span.bg-dark.text-white {
-    padding: 10px 20px 10px 20px;
+    padding: 8px 20px 7px 20px;
 }
 
 hr.bg-dark {
-    height: 2px;
+    height: 3px;
     margin-top: 06px;
 }
 
-.card-AboutMe, .card-skills, .card-education {
+.card-AboutMe, .card-skills, .card-education, .card-careers {
     background-color: whitesmoke;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Benne', serif;
 }
-/*
-.row {
-    margin-top: 20px;
-}
-
-
-h1.mb-3 {
-    padding-top: 0;
-}
-
 
 body {
     font-family: 'Benne', serif;
-    background-color: #837b7b3b;
+    background-color: lightgray;
     font-size: 1.1rem;
 }
 
-h4#About,h4#Skills, h4 {
-    font-weight: 600;
-}
-
-h2 {
-    margin-top: 1rem;
-    font-weight: 500;
-}
-
-h4 {
-    margin-top: 10px;
-}
-
-h5 {
-    font-weight: 500;
-}
 
 @keyframes picture {
     0%   {border-radius: 0%;}
