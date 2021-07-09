@@ -76,3 +76,9 @@ a.navbar-brand {
     animation-iteration-count: infinite;
 }
 
+@media screen and (min-width: 465px) {
+    picture {
+      margin-left: 80px ; 
+    }
+}
+
