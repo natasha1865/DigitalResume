@@ -36,7 +36,9 @@ hr.bg-dark {
     margin-top: 06px;
 }
 
-
+.card-skills {
+    background-color: whitesmoke;
+}
 /*
 .row {
     margin-top: 20px;
